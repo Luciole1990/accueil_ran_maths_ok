@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices Mathématiques - CAP AEPE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            color: #666;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .qr-container {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .qr-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .card-link-text {
+            display: block;
+            font-size: 0.95em;
+            color: #667eea;
+            margin-top: 10px;
+            word-break: break-all;
+            font-weight: 500;
+        }
+
+        footer {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: #666;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-title {
+                font-size: 1.3em;
+            }
+        }
+         /* ---- STYLE DU BOUTON RAPPEL DE COURS ---- */
+    .course-btn {
+        display: inline-block;
+        padding: 12px 20px;
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        font-weight: 600;
+        border-radius: 12px;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        transition: 0.2s ease;
+    }
+
+    .course-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧮 Exercices Mathématiques</h1>
+            <p>CAP Accompagnant Éducatif Petite Enfance</p>
+        </header>
+
+        <div class="grid">
+           <!-- Les 4 Opérations -->
+<div class="card">
+
+    <a class="course-btn" href="https://luciole1990.github.io/les_4_operations_cours/" target="_blank">
+        🔷 Rappel de cours
+    </a>
+
+    <div class="qr-container">
+        <img src="https://i.imgur.com/RUAzimu.jpeg">
+    </div>
+
+    <h2 class="card-title">➕ ➖ ✖️ ➗ Les 4 Opérations</h2>
+    <div class="card-link-text">
+        luciole1990.github.io/les_4_operations
+    </div>
+
+</div>
+
+         <!-- Les Pourcentages -->
+<div class="card">
+
+    <a class="course-btn" href="https://luciole1990.github.io/les_pourcentages_cours/" target="_blank">
+        🔷 Rappel de cours
+    </a>
+
+    <div class="qr-container">
+        <img src="https://i.imgur.com/cR7Hdvl.jpeg">
+    </div>
+
+    <h2 class="card-title">📊 Les Pourcentages</h2>
+    <div class="card-link-text">
+        luciole1990.github.io/les_pourcentages
+    </div>
+
+</div>
+
+
+          <!-- Tableaux à Double Entrée -->
+<div class="card">
+
+    <a class="course-btn" href="https://luciole1990.github.io/les_tableaux_cours/" target="_blank">
+        🔷 Rappel de cours
+    </a>
+
+    <div class="qr-container">
+        <img src="https://i.imgur.com/duRoPp8.jpeg">
+    </div>
+
+    <h2 class="card-title">📋 Tableaux à Double Entrée</h2>
+    <div class="card-link-text">
+        luciole1990.github.io/tableaux_double_entree
+    </div>
+
+</div>
+            <!-- Exercice de Synthèse -->
+            <div class="card">
+                  <a class="course-btn" href="https://luciole1990.github.io/synthese_cours/" target="_blank">
+        🔷 Rappel de cours
+    </a>
+                <div class="qr-container">
+                    <img src="https://i.imgur.com/yfscVuj.jpeg">
+                </div>
+                <h2 class="card-title">🎯 Exercice de Synthèse</h2>
+                <div class="card-link-text">
+                    luciole1990.github.io/synthese_maths
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><span class="emoji">💡</span> <strong>Conseil :</strong> Scannez les QR codes avec votre smartphone pour accéder aux exercices.</p>
+            <p><span class="emoji">📱</span> Les exercices sont accessibles sur ordinateur, tablette et smartphone.</p>
+            <p><span class="emoji">🌟</span> Bon courage pour vos révisions !</p>
+        </footer>
+    </div>
+</body>
+</html>
